@@ -225,6 +225,9 @@
     <Resource Include="Assets\img\SERVICES\Топливная система.png" />
     <Resource Include="Assets\img\SERVICES\Шиномонтаж.jpg" />
     <Resource Include="Assets\img\SERVICES\Электрика.png" />
+    <Resource Include="Assets\img\SERVICES\wsr300.png" />
+    <Resource Include="Assets\img\SERVICES\02918794b32319bfafac4b5c575dba21.jpg" />
+    <Resource Include="Assets\img\SERVICES\telegram.png" />
     <Content Include="Models\Model1.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>Model1.Context.cs</LastGenOutput>

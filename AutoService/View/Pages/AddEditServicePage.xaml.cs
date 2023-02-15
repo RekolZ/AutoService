@@ -56,6 +56,7 @@ namespace AutoService.View.Pages
             if (_currentService == null)
             {
                 //отсюда
+                
                 string name = System.IO.Path.GetFileName(ofd.FileName);
 
                 if (File.Exists($"{AppDomain.CurrentDomain.BaseDirectory}\\..\\..\\Assets\\img\\SERVICES\\{System.IO.Path.GetFileName(ofd.FileName)}"))
@@ -98,6 +99,8 @@ namespace AutoService.View.Pages
                 db.context.Service.Add(service);
                 db.context.SaveChanges();
             }
+
+            //редактирование
             else
             {
                 _currentService.Title = TBoxTitle.Text;
